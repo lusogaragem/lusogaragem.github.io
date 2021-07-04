@@ -1,0 +1,352 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	background: #FEFEFE;
+}
+
+header {
+	background: #000000;
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+}
+nav {
+	position: absolute;
+	top: 60px;
+	right: 20px;
+}
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+	
+}
+nav a {
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 21px;
+	text-decoration: none; 
+	
+}
+
+nav a:hover {
+	color: #CCCCCC;
+	/*text-decoration: underline;*/
+}
+
+.logo {
+	margin-left: 4em;
+}
+
+.titulo-principal{
+	text-align: center;
+	font-size: 2em;
+	margin:0.5em 0 1em;
+	clear: left;
+	font-weight: bold;
+}
+
+
+.sobre {
+	padding: 2em 0;
+	width: 940px;
+	margin: 0 auto;
+
+}
+
+.sobre p {
+	margin: 0 40px 1em;
+	text-align: justify;
+}
+
+.sobre strong {
+	font-weight: bold;
+}
+
+.mecanico{
+	width: 250px;
+	float: left;
+	margin: 0 20px 20px 40px;
+	opacity:1;
+	transition: 400ms;
+}
+
+.mecanico:hover {
+	opacity:0.5;
+}
+
+.mapa {
+	padding: 2em 0;
+	/*background: linear-gradient( #FEFEFE,#CCCCCC);*/
+	
+}
+
+.mapa-conteudo {
+	width: 50%;
+	margin: 0 auto; 
+	align-content: center;
+}
+
+.mapa p {
+	margin: 0 0 2em;
+	text-align: center;
+	text-decoration-style: justify;
+}
+
+.diferencial {
+	padding: 2em 0;
+
+}
+
+.conteudo-diferencial {
+	width: 640px;
+	margin: 0 auto;
+}
+
+.lista-diferencial {
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.itens {
+	line-height: 1.5em;
+}
+
+.itens:before {
+	content:"🔧 ";
+}
+
+.itens:first-child {
+	font-weight: bold;
+}
+
+.imagem-diferencial {
+	width: 50%;
+	opacity:1;
+	transition: 400ms;
+	box-shadow: 8px 8px 3px 0 darkgrey;
+}
+
+.imagem-diferencial:hover {
+	opacity:0.5;
+}
+
+footer {
+	text-align: center;
+	background: #99b2a2;
+	/*background: linear-gradient(#B8ABD4 30%,purple);
+	/*background: url("bg.jpg");*/
+	text-decoration: none;
+	padding: 40px 0;
+}
+
+.copyright {
+	color: black;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+.serviços {
+	padding: 3em 0;
+}
+
+.conteudo-serviços {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.lista-serviços{
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.itens-serviços {
+	line-height: 1.7em;
+}
+
+.itens-serviços:before {
+	content:"🔧 ";
+}
+
+.itens-serviços:first-child {
+	font-weight: bold;
+}
+
+.imagem-serviços {
+	width: 50%;
+	opacity:1;
+	transition: 400ms;
+	box-shadow: 8px 8px 3px 0 #99b2a2;
+}
+
+.imagem-serviços:hover {
+	opacity:0.5;
+}
+
+.whatsapp-link {
+			position: fixed;
+			width: 60px;
+			height: 60px;
+			bottom: 40px;
+			right: 40px;
+			background-color: #25d366;
+			color: #fff;
+			border-radius: 50px;
+			text-align: center;
+			font-size: 30px;
+			box-shadow: 1px 1px 2px #888;
+			z-index: 1000;
+		}
+ 
+		.fa-whatsapp {
+			margin-top: 16px;
+		}
+
+.instagram {
+	text-align: center;
+}
+
+.fb-page {
+	text-align: center;
+}
+
+.facebook {
+	text-align: center;
+}
+
+.whats-texto {
+	text-align: center;
+}
+
+@media screen and (max-width: 480px) and (orientation: portrait) {
+	.caixa, .sobre, .mecanico, .conteudo-diferencial, .mapa-conteudo, .conteudo-serviços  {
+		width: auto;
+	}
+	
+	.titulo-principal {
+		margin-top: 1px;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+		text-align: center;
+		margin-top:10px;
+		right: 0;
+		font-size: 10px;
+	}
+
+	.itens {
+		margin-left: 10px;
+	}
+
+	.itens-serviços {
+		margin-left: 10px;
+	}
+
+	.logo {
+		margin-left: 0;
+	}
+
+	.primeirali {
+		margin:0 0 0 0;
+	}
+
+	.mecanico {
+		width: 79%;
+		display: block;    	
+	} 
+
+	.mapa-conteudo {
+		margin: 0 10px;
+	}
+	
+	.imagem-diferencial {
+		width: 70%;
+		display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+    	margin-top: 30px;
+	}
+
+	.imagem-serviços, .lista-serviços {
+		width: auto;
+	}
+
+	.imagem-serviços, .lista-serviços {
+		width: 100%;
+	}
+	
+	.lista-diferencial {
+		width: 100%
+	}	
+}
+
+@media screen and (min-width: 480px) and (max-width: 930px) and (orientation: landscape) {
+	 nav {
+	 	position: static;
+	 	text-align: center;
+	 }
+
+	 .logo {
+	 	text-align: center;
+	 	margin-left: 0; 
+	 }
+	 .sobre {
+	 	width: 90%;
+	 }
+
+	 .mecanico {
+	 	width: 90%
+	 }
+	 .sobre p {
+	 	width: 90%;
+	 }
+
+	 .mapa p {
+	 	margin: 0 20px 20px 20px;
+	 }
+
+	 .conteudo-serviços{
+	 	width: 90%;
+	 }
+
+}
+@media screen and (min-width: 480px) and (max-width: 930px) and (orientation: portrait) {
+	nav {
+	 	position: static;
+	 	text-align: center;
+	 }
+
+	 .logo {
+	 	text-align: center;
+	 	margin-left: 0; 
+	 }
+	 .sobre {
+	 	width: 90%;
+	 }
+
+	 .mecanico {
+	 	width: 90%
+	 }
+	 .sobre p {
+	 	width: 90%;
+	 }
+
+	 .mapa p {
+	 	margin: 0 20px 20px 20px;
+	 }
+
+	 .conteudo-serviços{
+	 	width: 90%;
+	 }
+} 
+
