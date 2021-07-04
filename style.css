@@ -250,6 +250,8 @@ footer {
 	
 	.mapa p {
 		line-height: 1.5;
+		text-align: justify;
+		margin: 0 10px 30px 10px;
 	}
 
 	.itens {
@@ -321,6 +323,10 @@ footer {
 
 	 .mapa p {
 	 	margin: 0 20px 20px 20px;
+	 }
+	
+	.lista-diferencial{
+	 	margin-left: 10px 
 	 }
 
 	 .conteudo-serviços{
